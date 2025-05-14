@@ -1,0 +1,76 @@
+# ========================
+# Unreal Engine Git Ignore
+# ========================
+
+# Build products
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Visual Studio files
+.vscode/
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Xcode files
+*.xcworkspace/
+*.xcuserdata/
+
+# Mac specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Compiled binary files
+*.exe
+*.dll
+*.lib
+*.app
+*.dylib
+*.so
+
+# Logs and temp
+*.log
+*.tlog
+*.tmp
+
+# Unreal backup files
+*.bak
+*.old
+
+# Ignore local settings
+*.user
+*.suo
+*.userprefs
+
+# Generated project files (can be regenerated with .uproject)
+*.xcodeproj
+*.sln
+*.opensdf
+*.sdf
+
+# Crash report / minidump
+*.dmp
+
+# Auto-generated plugin files
+*.uplugincontent
+
+# Auto-generated asset thumbnails
+*.asset.meta
+
+# Ignore config if personal (optional)
+# Config/DefaultEditor.ini
+# Config/DefaultEngine.ini
+
+# If you use Rider for Unreal
+.idea/
+*.ipr
+*.iws
+out/
+
+# If using Perforce
+*.p4s
